@@ -1,9 +1,9 @@
-# e-commerce
+# e-commerce with framework vue.js and vuetify
 
 ## Project setup
 ```
-cd e-commerce
-cd my-layout
+change directori -> e-commerce
+change directori -> my-layout
 npm install
 ```
 
