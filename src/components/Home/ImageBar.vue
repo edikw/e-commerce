@@ -1,13 +1,11 @@
 <template>
-  <!-- <container> -->
-  <v-container fluid grid-list-md>
+  <v-container grid-list>
     <v-layout row wrap justify-center>
-      <!-- <v-flex xs12 lg8> -->
-        <v-flex xs12 sm6 md8 lg6 class="d-inline-block">
+        <v-flex xs12 sm12 md8 class="d-inline-block pb-1 pb-lg-0">
          <v-card>
             <v-img
               class="white--text"
-              max-height="300px"
+              max-height="250px"
               :src="require('../../assets/bannerimg.jpg')" aspect-ratio="2"
             >
             <v-layout fill-height align-end pa-3>
@@ -21,13 +19,13 @@
             </v-img>
           </v-card>
         </v-flex>
-        <v-flex xs12 sm6 md4 lg4 class="d-inline-block">
+        <v-flex xs12 sm12 md4 lg4 class="d-inline-block pl-lg-1">
           <v-layout row wrap>
-            <v-flex d-flex>
+            <v-flex d-flex class="pb-1">
              <v-card>
                 <v-img
                   class="white--text"
-                  max-height="150px"
+                  max-height="124px"
                   :src="require('../../assets/bannerimg2.jpg')" aspect-ratio="2"
                 >
                 <v-layout fill-height align-end pa-3>
@@ -45,7 +43,7 @@
               <v-card>
                 <v-img
                   class="white--text"
-                  max-height="140px"
+                  max-height="124px"
                   :src="require('../../assets/gambar1.jpg')" aspect-ratio="2"
                 >
                 <v-layout fill-height align-end pa-3>
@@ -61,10 +59,8 @@
             </v-flex>
           </v-layout>
         </v-flex>
-    <!-- </v-flex> -->
     </v-layout>
   </v-container>
-  <!-- </container> -->
 </template>
 <script>
   export default {
